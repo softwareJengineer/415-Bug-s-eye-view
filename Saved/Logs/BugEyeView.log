@@ -925,3 +925,540 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.11.18-19.18.36:413][913]LogSavePackage: Moving '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Saved/ThirdPersonExampleMapF8891D3143967E5DA64D628AFFF0BD29.tmp' to '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Content/BEV/Maps/ThirdPersonExampleMap.umap'
 [2022.11.18-19.18.36:430][913]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
 [2022.11.18-19.18.36:430][913]LogContentValidation: Display: Validating World /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.11.18-19.19.02:197][131]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.18-19.19.02:204][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.18-19.19.02:204][131]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 18, 2022, 7:19:02 AM)
+[2022.11.18-19.19.02:205][131]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.11.18-19.19.02:206][131]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.11.18-19.19.02:206][131]LogPlayLevel: Creating play world package: /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.19.02:218][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012154s)
+[2022.11.18-19.19.02:219][131]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.18-19.19.02:220][131]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2022.11.18-19.19.02:220][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013728s)
+[2022.11.18-19.19.02:227][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.11.18-19.19.02:228][131]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.11.18-19.19.02:228][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.18-19.19.02:228][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.18-19.19.02:228][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.18-19.19.02:228][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.18-19.19.02:228][131]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.18-19.19.02:228][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.18-19.19.02:228][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.18-19.19.02:229][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.18-19.19.02:229][131]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.18-19.19.02:229][131]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.18-19.19.02:229][131]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.18-19.19.02:229][131]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.18-19.19.02:231][131]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.18-19.19.02:231][131]LogAudioMixer: Display: 1: FrontRight
+[2022.11.18-19.19.02:290][131]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.18-19.19.02:290][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.18-19.19.02:290][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.18-19.19.02:290][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.18-19.19.02:291][131]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.18-19.19.02:291][131]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.18-19.19.02:291][131]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.18-19.19.02:292][131]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.18-19.19.02:292][131]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.18-19.19.02:292][131]LogInit: FAudioDevice initialized.
+[2022.11.18-19.19.02:292][131]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonExampleMap'.
+[2022.11.18-19.19.02:300][131]LogLoad: Game class is 'BEV_GameMode_C'
+[2022.11.18-19.19.02:302][131]LogPhysics: Warning: Scale for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BG_plane_5.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.800 Y=0.000 Z=2.500
+[2022.11.18-19.19.02:302][131]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2022.11.18-19.19.02:302][131]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.11.18-19.19.02:303][131]LogWorld: Bringing World /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.11.18-13.19.02
+[2022.11.18-19.19.02:305][131]LogWorld: Bringing up level for play took: 0.004069
+[2022.11.18-19.19.02:305][131]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2022.11.18-19.19.02:307][131]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.11.18-19.19.02:312][131]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.02:313][131]PIE: Server logged in
+[2022.11.18-19.19.02:313][131]PIE: Play in editor total start time 0.112 seconds.
+[2022.11.18-19.19.04:682][271]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.06:583][385]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.06:719][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.19.06:719][391]LogWorld: BeginTearingDown for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.19.06:720][391]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.18-19.19.06:721][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.19.06:731][391]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.18-19.19.06:733][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.19.06:740][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.19.06:740][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.19.06:741][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.19.06:747][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.11.18-19.19.06:797][394]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.11.18-19.19.15:681][927]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2022.11.18-19.19.17:675][ 46]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.18-19.19.22:667][345]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.18-19.19.27:169][615]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.18-19.19.31:786][892]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.18-19.19.34:020][ 26]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.18-19.19.35:688][126]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.18-19.19.37:471][233]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.18-19.19.40:948][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.11.18-19.19.40:977][440]LogSavePackage: Moving '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Saved/ThirdPersonExampleMap4C5D8D5740BF66CFD08DBB954053FC4F.tmp' to '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Content/BEV/Maps/ThirdPersonExampleMap.umap'
+[2022.11.18-19.19.40:994][440]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2022.11.18-19.19.40:994][440]LogContentValidation: Display: Validating World /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.11.18-19.19.42:192][512]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.18-19.19.42:199][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.18-19.19.42:199][512]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 18, 2022, 7:19:42 AM)
+[2022.11.18-19.19.42:230][512]LogPlayLevel: Creating play world package: /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.19.42:246][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016199s)
+[2022.11.18-19.19.42:247][512]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.18-19.19.42:247][512]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2022.11.18-19.19.42:247][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017435s)
+[2022.11.18-19.19.42:255][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2022.11.18-19.19.42:255][512]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.11.18-19.19.42:256][512]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.18-19.19.42:256][512]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.18-19.19.42:256][512]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.18-19.19.42:256][512]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.18-19.19.42:256][512]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.18-19.19.42:256][512]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.18-19.19.42:256][512]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.18-19.19.42:256][512]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.18-19.19.42:256][512]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.18-19.19.42:256][512]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.18-19.19.42:257][512]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.18-19.19.42:257][512]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.18-19.19.42:259][512]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.18-19.19.42:259][512]LogAudioMixer: Display: 1: FrontRight
+[2022.11.18-19.19.42:317][512]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.18-19.19.42:317][512]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.18-19.19.42:317][512]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.18-19.19.42:317][512]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.18-19.19.42:317][512]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.18-19.19.42:317][512]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.18-19.19.42:318][512]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.18-19.19.42:319][512]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.18-19.19.42:319][512]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.18-19.19.42:319][512]LogInit: FAudioDevice initialized.
+[2022.11.18-19.19.42:319][512]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonExampleMap'.
+[2022.11.18-19.19.42:326][512]LogLoad: Game class is 'BEV_GameMode_C'
+[2022.11.18-19.19.42:329][512]LogPhysics: Warning: Scale for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BG_plane_5.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.800 Y=0.000 Z=2.500
+[2022.11.18-19.19.42:329][512]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2022.11.18-19.19.42:329][512]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.11.18-19.19.42:330][512]LogWorld: Bringing World /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.11.18-13.19.42
+[2022.11.18-19.19.42:331][512]LogWorld: Bringing up level for play took: 0.004039
+[2022.11.18-19.19.42:332][512]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2022.11.18-19.19.42:337][512]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.42:337][512]PIE: Server logged in
+[2022.11.18-19.19.42:338][512]PIE: Play in editor total start time 0.141 seconds.
+[2022.11.18-19.19.44:585][646]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.46:386][754]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.48:085][856]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.48:223][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.19.48:223][862]LogWorld: BeginTearingDown for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.19.48:223][862]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.18-19.19.48:224][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.19.48:230][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.18-19.19.48:239][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.19.48:244][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.19.48:244][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.19.48:245][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.19.48:250][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.11.18-19.19.48:297][864]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.11.18-19.19.53:519][177]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.18-19.19.53:525][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.18-19.19.53:525][177]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 18, 2022, 7:19:53 AM)
+[2022.11.18-19.19.53:525][177]LogPlayLevel: Creating play world package: /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.19.53:537][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011876s)
+[2022.11.18-19.19.53:539][177]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.18-19.19.53:539][177]LogPlayLevel: PIE: World Init took: (0.001750s)
+[2022.11.18-19.19.53:539][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013855s)
+[2022.11.18-19.19.53:547][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.11.18-19.19.53:548][177]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.11.18-19.19.53:548][177]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.18-19.19.53:548][177]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.18-19.19.53:548][177]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.18-19.19.53:548][177]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.18-19.19.53:548][177]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.18-19.19.53:548][177]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.18-19.19.53:548][177]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.18-19.19.53:548][177]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.18-19.19.53:549][177]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.18-19.19.53:549][177]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.18-19.19.53:549][177]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.18-19.19.53:549][177]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.18-19.19.53:551][177]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.18-19.19.53:551][177]LogAudioMixer: Display: 1: FrontRight
+[2022.11.18-19.19.53:610][177]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.18-19.19.53:610][177]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.18-19.19.53:610][177]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.18-19.19.53:610][177]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.18-19.19.53:611][177]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.18-19.19.53:611][177]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.18-19.19.53:611][177]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.18-19.19.53:612][177]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.18-19.19.53:612][177]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.18-19.19.53:612][177]LogInit: FAudioDevice initialized.
+[2022.11.18-19.19.53:612][177]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonExampleMap'.
+[2022.11.18-19.19.53:619][177]LogLoad: Game class is 'BEV_GameMode_C'
+[2022.11.18-19.19.53:622][177]LogPhysics: Warning: Scale for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BG_plane_5.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.800 Y=0.000 Z=2.500
+[2022.11.18-19.19.53:622][177]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2022.11.18-19.19.53:622][177]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.11.18-19.19.53:623][177]LogWorld: Bringing World /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.11.18-13.19.53
+[2022.11.18-19.19.53:624][177]LogWorld: Bringing up level for play took: 0.003852
+[2022.11.18-19.19.53:624][177]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.11.18-19.19.53:629][177]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.53:630][177]PIE: Server logged in
+[2022.11.18-19.19.53:630][177]PIE: Play in editor total start time 0.107 seconds.
+[2022.11.18-19.19.55:879][311]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.57:530][410]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.19.59:147][507]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.00:680][599]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.02:497][708]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.04:347][819]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.06:096][924]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.07:647][ 17]LogBlueprintUserMessages: [DocileAnt_C_0] Calling Move To Puzzle
+[2022.11.18-19.20.07:746][ 23]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.09:263][114]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.09:463][126]LogBlueprintUserMessages: [DocileAnt_C_0] Calling Move To Puzzle
+[2022.11.18-19.20.10:863][210]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.12:780][325]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.14:630][436]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.16:547][551]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.17:797][626]LogBlueprintUserMessages: [DocileAnt_C_0] Calling Move To Puzzle
+[2022.11.18-19.20.17:797][626]LogBlueprintUserMessages: [DocileAnt_C_1] Calling Move To Puzzle
+[2022.11.18-19.20.18:064][642]LogBlueprintUserMessages: [DocileAnt_C_0] Calling Move To Puzzle
+[2022.11.18-19.20.18:064][642]LogBlueprintUserMessages: [DocileAnt_C_1] Calling Move To Puzzle
+[2022.11.18-19.20.18:197][650]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.20:097][764]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.21:381][841]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.23:248][953]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.24:614][ 35]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.26:415][143]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.28:031][240]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.29:781][345]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.31:665][458]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.33:132][546]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.34:898][652]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.36:781][765]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.38:582][873]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.40:182][969]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.41:281][ 35]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.42:682][119]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.44:498][228]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.46:031][320]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.47:498][408]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.49:282][515]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.51:115][625]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.52:765][724]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.54:432][824]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.20.54:599][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.20.54:599][831]LogWorld: BeginTearingDown for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.20.54:600][831]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.18-19.20.54:601][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.20.54:616][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.18-19.20.54:625][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.20.54:630][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.20.54:631][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.20.54:632][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.20.54:637][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.11.18-19.20.54:657][832]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.11.18-19.21.27:914][827]LogEditorViewport: Clicking on Actor (LMB): BP_Spider_C (Spider)
+[2022.11.18-19.21.53:586][361]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.11.18-19.21.53:617][361]LogSavePackage: Moving '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Saved/ThirdPersonExampleMapADEF364B4656BCFFD30A71BA51A81A98.tmp' to '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Content/BEV/Maps/ThirdPersonExampleMap.umap'
+[2022.11.18-19.21.53:635][361]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2022.11.18-19.21.53:635][361]LogContentValidation: Display: Validating World /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.11.18-19.22.02:183][871]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2022.11.18-19.22.04:865][ 31]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.18-19.22.05:681][ 80]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.18-19.22.05:688][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.18-19.22.05:688][ 80]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 18, 2022, 7:22:05 AM)
+[2022.11.18-19.22.05:688][ 80]LogPlayLevel: Creating play world package: /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.22.05:701][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012276s)
+[2022.11.18-19.22.05:702][ 80]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.18-19.22.05:702][ 80]LogPlayLevel: PIE: World Init took: (0.001326s)
+[2022.11.18-19.22.05:702][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013787s)
+[2022.11.18-19.22.05:710][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.11.18-19.22.05:711][ 80]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.11.18-19.22.05:711][ 80]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.18-19.22.05:711][ 80]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.18-19.22.05:711][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.18-19.22.05:711][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.18-19.22.05:711][ 80]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.18-19.22.05:711][ 80]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.18-19.22.05:711][ 80]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.18-19.22.05:711][ 80]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.18-19.22.05:712][ 80]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.18-19.22.05:712][ 80]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.18-19.22.05:712][ 80]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.18-19.22.05:712][ 80]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.18-19.22.05:715][ 80]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.18-19.22.05:715][ 80]LogAudioMixer: Display: 1: FrontRight
+[2022.11.18-19.22.05:782][ 80]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.18-19.22.05:783][ 80]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.18-19.22.05:783][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.18-19.22.05:783][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.18-19.22.05:783][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.18-19.22.05:783][ 80]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.18-19.22.05:783][ 80]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.18-19.22.05:784][ 80]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.18-19.22.05:784][ 80]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.18-19.22.05:784][ 80]LogInit: FAudioDevice initialized.
+[2022.11.18-19.22.05:784][ 80]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonExampleMap'.
+[2022.11.18-19.22.05:794][ 80]LogLoad: Game class is 'BEV_GameMode_C'
+[2022.11.18-19.22.05:797][ 80]LogPhysics: Warning: Scale for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BG_plane_5.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.800 Y=0.000 Z=2.500
+[2022.11.18-19.22.05:797][ 80]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2022.11.18-19.22.05:797][ 80]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.11.18-19.22.05:798][ 80]LogWorld: Bringing World /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.11.18-13.22.05
+[2022.11.18-19.22.05:799][ 80]LogWorld: Bringing up level for play took: 0.004279
+[2022.11.18-19.22.05:799][ 80]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2022.11.18-19.22.05:805][ 80]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.05:806][ 80]PIE: Server logged in
+[2022.11.18-19.22.05:806][ 80]PIE: Play in editor total start time 0.12 seconds.
+[2022.11.18-19.22.07:870][203]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.09:654][310]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.11:604][427]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.13:504][541]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.15:171][641]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.15:752][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.22.15:752][673]LogWorld: BeginTearingDown for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.22.15:752][673]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.18-19.22.15:753][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.22.15:760][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.18-19.22.15:769][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.22.15:774][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.22.15:774][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.22.15:775][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.22.15:780][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.11.18-19.22.15:824][675]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.11.18-19.22.17:098][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.11.18-19.22.17:129][750]LogSavePackage: Moving '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Saved/ThirdPersonExampleMap795F04AC4B4E68888E242BB44CAE3308.tmp' to '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Content/BEV/Maps/ThirdPersonExampleMap.umap'
+[2022.11.18-19.22.17:147][750]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2022.11.18-19.22.17:147][750]LogContentValidation: Display: Validating World /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.11.18-19.22.23:179][106]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BEV/Blueprints/Enemies/AggressiveAnt.AggressiveAnt
+[2022.11.18-19.22.23:372][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Bump_Metal_v3_Cue': Can't find file.
+[2022.11.18-19.22.23:373][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Bump_Metal_v3_Cue': Can't find file.
+[2022.11.18-19.22.23:373][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:373][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:374][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:374][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Bump_Metal_v3_Cue': Can't find file.
+[2022.11.18-19.22.23:375][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Bump_Metal_v3_Cue': Can't find file.
+[2022.11.18-19.22.23:375][106]LoadErrors: Failed to load /Game/LearningKit_Robots/Audio/Bump_Metal_v3_Cue.Bump_Metal_v3_Cue Referenced by K2Node_CallFunction_7
+[2022.11.18-19.22.23:375][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:375][106]LoadErrors: Failed to load /Game/LearningKit_Robots/Audio/General_Att.General_Att Referenced by K2Node_CallFunction_7
+[2022.11.18-19.22.23:418][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Bump_Metal_v3_Cue': Can't find file.
+[2022.11.18-19.22.23:419][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:419][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:419][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BP_Robot_MASTER.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Bump_Metal_v3_Cue': Can't find file.
+[2022.11.18-19.22.23:425][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BPML_Robot.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Approaching-object_V2_Cue': Can't find file.
+[2022.11.18-19.22.23:425][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BPML_Robot.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Approaching-object_V2_Cue': Can't find file.
+[2022.11.18-19.22.23:426][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BPML_Robot.uasset: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:426][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BPML_Robot.uasset: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:426][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BPML_Robot.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Approaching-object_V2_Cue': Can't find file.
+[2022.11.18-19.22.23:426][106]LogLinker: Warning: Failed to load '/Game/LearningKit_Robots/Audio/Approaching-object_V2_Cue': Can't find file.
+[2022.11.18-19.22.23:427][106]LogLinker: Warning: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:427][106]LogLinker: Warning: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:427][106]LogLinker: Warning: Failed to load '/Game/LearningKit_Robots/Audio/Approaching-object_V2_Cue': Can't find file.
+[2022.11.18-19.22.23:429][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BPML_Robot.uasset: Failed to load '/Game/LearningKit_Robots/Audio/Approaching-object_V2_Cue': Can't find file.
+[2022.11.18-19.22.23:429][106]LoadErrors: Failed to load /Game/LearningKit_Robots/Audio/Approaching-object_V2_Cue.Approaching-object_V2_Cue Referenced by K2Node_CallFunction_6
+[2022.11.18-19.22.23:429][106]LogLinker: Warning: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\LearningKit_Robots\Blueprints\Robots\Robot_MASTER\BPML_Robot.uasset: Failed to load '/Game/LearningKit_Robots/Audio/General_Att': Can't find file.
+[2022.11.18-19.22.23:429][106]LoadErrors: Failed to load /Game/LearningKit_Robots/Audio/General_Att.General_Att Referenced by K2Node_CallFunction_6
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:471][106]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2022.11.18-19.22.23:472][106]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2022.11.18-19.22.23:472][106]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2022.11.18-19.22.23:472][106]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2022.11.18-19.22.23:472][106]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2022.11.18-19.22.23:472][106]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2022.11.18-19.22.23:472][106]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2022.11.18-19.22.23:472][106]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/Realistic_Starter_VFX_Pack_Vol2/Demo_Room/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/FXVarietyPack/EpicContent/Blueprints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2022.11.18-19.22.23:547][106]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2022.11.18-19.22.24:518][106]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.18-19.22.24:634][107]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.11.18-19.22.34:097][650]BlueprintLog: New page: Compile AggressiveAnt
+[2022.11.18-19.22.34:151][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.11.18-19.22.34:254][650]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.11.18-19.22.34:570][664]LogSavePackage: Moving '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Saved/AggressiveAntB028DE0A49EA0CBC1D9E1ABE2FB7CE72.tmp' to '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Content/BEV/Blueprints/Enemies/AggressiveAnt.uasset'
+[2022.11.18-19.22.34:588][664]AssetCheck: New page: Asset Save: AggressiveAnt
+[2022.11.18-19.22.34:588][664]LogContentValidation: Display: Validating Blueprint /Game/BEV/Blueprints/Enemies/AggressiveAnt.AggressiveAnt
+[2022.11.18-19.22.35:033][691]LogSlate: Window 'AggressiveAnt' being destroyed
+[2022.11.18-19.22.35:037][691]LogSlate: Window 'AggressiveAnt' being destroyed
+[2022.11.18-19.22.35:042][691]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.11.18-19.22.35:042][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.22.35:665][725]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.18-19.22.35:673][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.18-19.22.35:673][725]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 18, 2022, 7:22:35 AM)
+[2022.11.18-19.22.35:710][725]LogPlayLevel: Creating play world package: /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.22.35:725][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015073s)
+[2022.11.18-19.22.35:726][725]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.18-19.22.35:726][725]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2022.11.18-19.22.35:726][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016416s)
+[2022.11.18-19.22.35:751][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.11.18-19.22.35:752][725]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.11.18-19.22.35:752][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.18-19.22.35:752][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.18-19.22.35:752][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.18-19.22.35:752][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.18-19.22.35:752][725]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.18-19.22.35:752][725]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.18-19.22.35:752][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.18-19.22.35:752][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.18-19.22.35:753][725]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.18-19.22.35:753][725]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.18-19.22.35:753][725]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.18-19.22.35:753][725]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.18-19.22.35:755][725]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.18-19.22.35:755][725]LogAudioMixer: Display: 1: FrontRight
+[2022.11.18-19.22.35:828][725]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.18-19.22.35:828][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.18-19.22.35:828][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.18-19.22.35:828][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.18-19.22.35:828][725]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.18-19.22.35:828][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.18-19.22.35:828][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.18-19.22.35:829][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.18-19.22.35:829][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.18-19.22.35:829][725]LogInit: FAudioDevice initialized.
+[2022.11.18-19.22.35:829][725]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonExampleMap'.
+[2022.11.18-19.22.35:840][725]LogLoad: Game class is 'BEV_GameMode_C'
+[2022.11.18-19.22.35:843][725]LogPhysics: Warning: Scale for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BG_plane_5.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.800 Y=0.000 Z=2.500
+[2022.11.18-19.22.35:843][725]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2022.11.18-19.22.35:843][725]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.11.18-19.22.35:844][725]LogWorld: Bringing World /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.11.18-13.22.35
+[2022.11.18-19.22.35:846][725]LogWorld: Bringing up level for play took: 0.004622
+[2022.11.18-19.22.35:846][725]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.11.18-19.22.35:852][725]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.35:853][725]PIE: Server logged in
+[2022.11.18-19.22.35:854][725]PIE: Play in editor total start time 0.183 seconds.
+[2022.11.18-19.22.37:834][843]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.39:334][933]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.41:267][ 49]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.42:984][152]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.22.44:029][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.22.44:029][212]LogWorld: BeginTearingDown for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.22.44:030][212]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.18-19.22.44:031][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.22.44:043][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.18-19.22.44:061][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.22.44:075][212]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.18-19.22.44:075][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.22.44:076][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.22.44:080][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.22.44:083][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.11.18-19.22.44:105][213]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.11.18-19.22.44:918][259]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BEV/Blueprints/Enemies/AggressiveAnt.AggressiveAnt
+[2022.11.18-19.23.03:235][285]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.11.18-19.23.07:161][519]LogUObjectHash: Warning: Ambiguous path search, could be BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/PlayerCharacter/BPI_LearningKit_PlayerInteractions.BPI_LearningKit_PlayerInteractions_C or BlueprintGeneratedClass /Game/BEV/Character/BPI_LearningKit_PlayerInteractions.BPI_LearningKit_PlayerInteractions_C
+[2022.11.18-19.23.07:161][519]LogUObjectHash: Warning: Ambiguous path search, could be BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/PlayerCharacter/BPI_LearningKit_PlayerInteractions.BPI_LearningKit_PlayerInteractions_C or BlueprintGeneratedClass /Game/BEV/Character/BPI_LearningKit_PlayerInteractions.BPI_LearningKit_PlayerInteractions_C
+[2022.11.18-19.23.11:364][754]BlueprintLog: New page: Compile AggressiveAnt
+[2022.11.18-19.23.11:370][754]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] Can't connect pins  Player to Chase  and  Target Player : BP BEV Player Object Reference is not compatible with Third Person Character Object Reference.
+[2022.11.18-19.23.11:371][754]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] Can't connect pins  Target Player  and  Player to Chase : Third Person Character Object Reference is not compatible with BP BEV Player Object Reference.
+[2022.11.18-19.23.11:371][754]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] Can't connect pins  Target Player  and  Player to Chase : Third Person Character Object Reference is not compatible with BP BEV Player Object Reference.
+[2022.11.18-19.23.11:371][754]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] Can't connect pins  Player to Chase  and  Target Player : BP BEV Player Object Reference is not compatible with Third Person Character Object Reference.
+[2022.11.18-19.23.11:373][754]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_BEV_Player  to imply a specific type.
+[2022.11.18-19.23.11:373][754]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2022.11.18-19.23.11:414][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.11.18-19.23.15:462][982]BlueprintLog: New page: Compile AggressiveAnt
+[2022.11.18-19.23.15:468][982]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] Can't connect pins  Player to Chase  and  Target Player : BP BEV Player Object Reference is not compatible with Third Person Character Object Reference.
+[2022.11.18-19.23.15:469][982]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] Can't connect pins  Target Player  and  Player to Chase : Third Person Character Object Reference is not compatible with BP BEV Player Object Reference.
+[2022.11.18-19.23.15:469][982]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] Can't connect pins  Target Player  and  Player to Chase : Third Person Character Object Reference is not compatible with BP BEV Player Object Reference.
+[2022.11.18-19.23.15:469][982]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] Can't connect pins  Player to Chase  and  Target Player : BP BEV Player Object Reference is not compatible with Third Person Character Object Reference.
+[2022.11.18-19.23.15:470][982]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_BEV_Player  to imply a specific type.
+[2022.11.18-19.23.15:471][982]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2022.11.18-19.23.15:513][982]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.11.18-19.23.21:757][348]LogUObjectHash: Warning: Ambiguous path search, could be BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/PlayerCharacter/BPI_LearningKit_PlayerInteractions.BPI_LearningKit_PlayerInteractions_C or BlueprintGeneratedClass /Game/BEV/Character/BPI_LearningKit_PlayerInteractions.BPI_LearningKit_PlayerInteractions_C
+[2022.11.18-19.23.21:757][348]LogUObjectHash: Warning: Ambiguous path search, could be BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/PlayerCharacter/BPI_LearningKit_PlayerInteractions.BPI_LearningKit_PlayerInteractions_C or BlueprintGeneratedClass /Game/BEV/Character/BPI_LearningKit_PlayerInteractions.BPI_LearningKit_PlayerInteractions_C
+[2022.11.18-19.23.23:947][460]BlueprintLog: New page: Compile AggressiveAnt
+[2022.11.18-19.23.23:955][460]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_BEV_Player  to imply a specific type.
+[2022.11.18-19.23.23:956][460]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2022.11.18-19.23.23:999][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.11.18-19.23.24:726][490]LogSavePackage: Moving '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Saved/AggressiveAnt1B52A8684F5C0D7E2E4A27AA82D23E7D.tmp' to '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Content/BEV/Blueprints/Enemies/AggressiveAnt.uasset'
+[2022.11.18-19.23.24:738][490]AssetCheck: New page: Asset Save: AggressiveAnt
+[2022.11.18-19.23.24:738][490]LogContentValidation: Display: Validating Blueprint /Game/BEV/Blueprints/Enemies/AggressiveAnt.AggressiveAnt
+[2022.11.18-19.23.37:988][274]BlueprintLog: New page: Compile AggressiveAnt
+[2022.11.18-19.23.37:995][274]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_BEV_Player  to imply a specific type.
+[2022.11.18-19.23.37:995][274]LogBlueprint: Error: [AssetLog] C:\Users\jschw\Desktop\SchoolDocuments\CS 415\BugEyeView\Content\BEV\Blueprints\Enemies\AggressiveAnt.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2022.11.18-19.23.38:036][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.11.18-19.23.38:551][296]LogSavePackage: Moving '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Saved/AggressiveAnt43316DFA4E2041C2D04E7A87EFAE48E7.tmp' to '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Content/BEV/Blueprints/Enemies/AggressiveAnt.uasset'
+[2022.11.18-19.23.38:567][296]AssetCheck: New page: Asset Save: AggressiveAnt
+[2022.11.18-19.23.38:567][296]LogContentValidation: Display: Validating Blueprint /Game/BEV/Blueprints/Enemies/AggressiveAnt.AggressiveAnt
+[2022.11.18-19.23.48:607][876]BlueprintLog: New page: Compile AggressiveAnt
+[2022.11.18-19.23.48:656][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.11.18-19.23.49:120][895]LogSavePackage: Moving '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Saved/AggressiveAntF17501724973CABA97DC5DA6DFAF7786.tmp' to '../../../../../../Users/jschw/Desktop/SchoolDocuments/CS 415/BugEyeView/Content/BEV/Blueprints/Enemies/AggressiveAnt.uasset'
+[2022.11.18-19.23.49:134][895]AssetCheck: New page: Asset Save: AggressiveAnt
+[2022.11.18-19.23.49:134][895]LogContentValidation: Display: Validating Blueprint /Game/BEV/Blueprints/Enemies/AggressiveAnt.AggressiveAnt
+[2022.11.18-19.23.51:341][ 24]LogSlate: Window 'AggressiveAnt' being destroyed
+[2022.11.18-19.23.51:346][ 24]LogSlate: Window 'AggressiveAnt' being destroyed
+[2022.11.18-19.23.51:349][ 24]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.11.18-19.23.51:349][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.23.52:293][ 78]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.18-19.23.52:300][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.18-19.23.52:300][ 78]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 18, 2022, 7:23:52 AM)
+[2022.11.18-19.23.52:320][ 78]LogPlayLevel: Creating play world package: /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.23.52:332][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012408s)
+[2022.11.18-19.23.52:333][ 78]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.18-19.23.52:334][ 78]LogPlayLevel: PIE: World Init took: (0.001373s)
+[2022.11.18-19.23.52:334][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BEV/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013987s)
+[2022.11.18-19.23.52:356][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.11.18-19.23.52:357][ 78]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.11.18-19.23.52:357][ 78]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.18-19.23.52:357][ 78]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.18-19.23.52:357][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.18-19.23.52:357][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.18-19.23.52:357][ 78]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.18-19.23.52:357][ 78]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.18-19.23.52:357][ 78]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.18-19.23.52:358][ 78]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.18-19.23.52:358][ 78]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.18-19.23.52:358][ 78]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.18-19.23.52:358][ 78]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.18-19.23.52:358][ 78]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.18-19.23.52:359][ 78]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.18-19.23.52:359][ 78]LogAudioMixer: Display: 1: FrontRight
+[2022.11.18-19.23.52:422][ 78]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.18-19.23.52:422][ 78]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.18-19.23.52:422][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.18-19.23.52:422][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.18-19.23.52:423][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.18-19.23.52:423][ 78]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.18-19.23.52:423][ 78]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.18-19.23.52:424][ 78]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.18-19.23.52:424][ 78]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.18-19.23.52:424][ 78]LogInit: FAudioDevice initialized.
+[2022.11.18-19.23.52:424][ 78]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonExampleMap'.
+[2022.11.18-19.23.52:430][ 78]LogLoad: Game class is 'BEV_GameMode_C'
+[2022.11.18-19.23.52:433][ 78]LogPhysics: Warning: Scale for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BG_plane_5.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.800 Y=0.000 Z=2.500
+[2022.11.18-19.23.52:433][ 78]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2022.11.18-19.23.52:433][ 78]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.11.18-19.23.52:434][ 78]LogWorld: Bringing World /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.11.18-13.23.52
+[2022.11.18-19.23.52:435][ 78]LogWorld: Bringing up level for play took: 0.004074
+[2022.11.18-19.23.52:436][ 78]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.11.18-19.23.52:441][ 78]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.23.52:441][ 78]PIE: Server logged in
+[2022.11.18-19.23.52:442][ 78]PIE: Play in editor total start time 0.145 seconds.
+[2022.11.18-19.23.53:789][158]LogBlueprintUserMessages: [AggressiveAnt_2] Chase
+[2022.11.18-19.23.54:289][188]LogBlueprintUserMessages: [AggressiveAnt_2] Chase
+[2022.11.18-19.23.54:406][195]LogBlueprintUserMessages: [AggressiveAnt_2] Attack
+[2022.11.18-19.23.55:656][270]LogBlueprintUserMessages: [AggressiveAnt_2] Chase
+[2022.11.18-19.23.55:756][276]LogBlueprintUserMessages: [AggressiveAnt_2] Attack
+[2022.11.18-19.23.56:590][326]LogBlueprintUserMessages: [AggressiveAnt_2] Chase
+[2022.11.18-19.23.56:689][332]LogBlueprintUserMessages: [AggressiveAnt_2] Attack
+[2022.11.18-19.23.58:206][423]LogBlueprintUserMessages: [AggressiveAnt_2] Chase
+[2022.11.18-19.23.58:306][429]LogBlueprintUserMessages: [AggressiveAnt_2] Attack
+[2022.11.18-19.23.59:806][519]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.24.01:339][611]LogBlueprintUserMessages: [AggressiveAnt_2] Wander
+[2022.11.18-19.24.01:790][638]LogBlueprintUserMessages: [AggressiveAnt_2] Chase
+[2022.11.18-19.24.01:890][644]LogBlueprintUserMessages: [AggressiveAnt_2] Attack
+[2022.11.18-19.24.03:413][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.24.03:413][733]LogWorld: BeginTearingDown for /Game/BEV/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.18-19.24.03:413][733]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.18-19.24.03:414][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.24.03:421][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.18-19.24.03:433][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.18-19.24.03:447][733]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.18-19.24.03:447][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.24.03:448][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.18-19.24.03:451][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.18-19.24.03:454][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.11.18-19.24.03:477][734]LogPlayLevel: Display: Destroying online subsystem :Context_19
